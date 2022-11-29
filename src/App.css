@@ -44,7 +44,7 @@ a:hover {
 
 body {
   font-family: var(--font-family);
-  background-color: #201e1e;
+  background-color: #242121;
 }
 
 nav {
@@ -57,7 +57,7 @@ nav {
   justify-content: space-between;
   padding: 1.5rem 3.5rem;
   background-color: var(--bg-color);
-  box-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 3px 5px rgba(104, 96, 96, 0.1);
 }
 
 nav h1 {
@@ -97,10 +97,12 @@ nav ul li {
   gap: 2.5rem;
   max-width: 68.75rem;
   margin: auto;
+ 
 }
 .hero img {
   height: 42.5rem;
   width: 37.5rem;
+  
 }
 
 .bio {
@@ -120,5 +122,21 @@ nav ul li {
 .bio p {
   line-height: var(--line-height);
   padding: 0.3rem 0;
+  color: #ffffff;
+}
+.more-about {
+  background-color: var(--bg-color);
+  padding: 1rem 6rem;
+}
+
+.more-about h2 {
+  margin-bottom: var(--bottom-margin);
+  text-align: center;
+  color: #ff7235;
+}
+
+.more-about p {
+  line-height: var(--line-height);
+  padding: 0.4rem;
   color: #ffffff;
 }
